@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="4" ignored="0" total="4" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="84945" started-at="2018-06-02T07:33:58Z" finished-at="2018-06-02T07:35:23Z">
+  <suite name="Suite" duration-ms="64928" started-at="2018-06-03T04:59:17Z" finished-at="2018-06-03T05:00:22Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="84945" started-at="2018-06-02T07:33:58Z" finished-at="2018-06-02T07:35:23Z">
+    <test name="Test" duration-ms="64928" started-at="2018-06-03T04:59:17Z" finished-at="2018-06-03T05:00:22Z">
       <class name="testScript.Test1">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testScript.Test1@3bfdc050]" name="launchBrowser" is-config="true" duration-ms="6069" started-at="2018-06-02T07:33:58Z" finished-at="2018-06-02T07:34:04Z">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testScript.Test1@3bfdc050]" name="launchBrowser" is-config="true" duration-ms="9630" started-at="2018-06-03T04:59:17Z" finished-at="2018-06-03T04:59:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="FAIL" signature="testFacebook()[pri:0, instance:testScript.Test1@3bfdc050]" name="testFacebook" duration-ms="18757" started-at="2018-06-02T07:34:04Z" finished-at="2018-06-02T07:34:23Z">
+        <test-method status="FAIL" signature="testFacebook()[pri:0, instance:testScript.Test1@3bfdc050]" name="testFacebook" duration-ms="14981" started-at="2018-06-03T04:59:27Z" finished-at="2018-06-03T04:59:42Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Facebook – log in or sign up1] but found [Facebook – log in or sign up]]]>
@@ -56,7 +56,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFacebook -->
-        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testScript.Test1@3bfdc050]" name="closeBrowser" is-config="true" duration-ms="1636" started-at="2018-06-02T07:34:23Z" finished-at="2018-06-02T07:34:24Z">
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testScript.Test1@3bfdc050]" name="closeBrowser" is-config="true" duration-ms="1295" started-at="2018-06-03T04:59:42Z" finished-at="2018-06-03T04:59:43Z">
           <params>
             <param index="0">
               <value>
@@ -69,11 +69,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- closeBrowser -->
       </class> <!-- testScript.Test1 -->
       <class name="testScript.Test2">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testScript.Test2@1bce4f0a]" name="launchBrowser" is-config="true" duration-ms="4136" started-at="2018-06-02T07:34:24Z" finished-at="2018-06-02T07:34:28Z">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testScript.Test2@1bce4f0a]" name="launchBrowser" is-config="true" duration-ms="4133" started-at="2018-06-03T04:59:43Z" finished-at="2018-06-03T04:59:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="FAIL" signature="instaTest()[pri:0, instance:testScript.Test2@1bce4f0a]" name="instaTest" duration-ms="18540" started-at="2018-06-02T07:34:28Z" finished-at="2018-06-02T07:34:47Z">
+        <test-method status="FAIL" signature="instaTest()[pri:0, instance:testScript.Test2@1bce4f0a]" name="instaTest" duration-ms="8677" started-at="2018-06-03T04:59:47Z" finished-at="2018-06-03T04:59:56Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Instagram1] but found [Instagram]]]>
@@ -118,7 +118,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- instaTest -->
-        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testScript.Test2@1bce4f0a]" name="closeBrowser" is-config="true" duration-ms="1881" started-at="2018-06-02T07:34:47Z" finished-at="2018-06-02T07:34:49Z">
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testScript.Test2@1bce4f0a]" name="closeBrowser" is-config="true" duration-ms="1302" started-at="2018-06-03T04:59:56Z" finished-at="2018-06-03T04:59:57Z">
           <params>
             <param index="0">
               <value>
@@ -131,11 +131,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- closeBrowser -->
       </class> <!-- testScript.Test2 -->
       <class name="testScript.Test3">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testScript.Test3@5e3a8624]" name="launchBrowser" is-config="true" duration-ms="4276" started-at="2018-06-02T07:34:49Z" finished-at="2018-06-02T07:34:53Z">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testScript.Test3@5e3a8624]" name="launchBrowser" is-config="true" duration-ms="4439" started-at="2018-06-03T04:59:57Z" finished-at="2018-06-03T05:00:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="FAIL" signature="testTwitter()[pri:0, instance:testScript.Test3@5e3a8624]" name="testTwitter" duration-ms="16242" started-at="2018-06-02T07:34:53Z" finished-at="2018-06-02T07:35:09Z">
+        <test-method status="FAIL" signature="testTwitter()[pri:0, instance:testScript.Test3@5e3a8624]" name="testTwitter" duration-ms="8166" started-at="2018-06-03T05:00:01Z" finished-at="2018-06-03T05:00:10Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Login on Twitter1] but found [Login on Twitter]]]>
@@ -180,7 +180,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTwitter -->
-        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testScript.Test3@5e3a8624]" name="closeBrowser" is-config="true" duration-ms="1677" started-at="2018-06-02T07:35:09Z" finished-at="2018-06-02T07:35:11Z">
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testScript.Test3@5e3a8624]" name="closeBrowser" is-config="true" duration-ms="1187" started-at="2018-06-03T05:00:10Z" finished-at="2018-06-03T05:00:11Z">
           <params>
             <param index="0">
               <value>
@@ -193,11 +193,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- closeBrowser -->
       </class> <!-- testScript.Test3 -->
       <class name="testScript.Test4">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testScript.Test4@5c3bd550]" name="launchBrowser" is-config="true" duration-ms="4450" started-at="2018-06-02T07:35:11Z" finished-at="2018-06-02T07:35:15Z">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testScript.Test4@5c3bd550]" name="launchBrowser" is-config="true" duration-ms="4253" started-at="2018-06-03T05:00:11Z" finished-at="2018-06-03T05:00:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="FAIL" signature="testLinkedIn()[pri:0, instance:testScript.Test4@5c3bd550]" name="testLinkedIn" duration-ms="5504" started-at="2018-06-02T07:35:15Z" finished-at="2018-06-02T07:35:21Z">
+        <test-method status="FAIL" signature="testLinkedIn()[pri:0, instance:testScript.Test4@5c3bd550]" name="testLinkedIn" duration-ms="5521" started-at="2018-06-03T05:00:15Z" finished-at="2018-06-03T05:00:21Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Sign Up | LinkedIn1] but found [Sign Up | LinkedIn]]]>
@@ -242,7 +242,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLinkedIn -->
-        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testScript.Test4@5c3bd550]" name="closeBrowser" is-config="true" duration-ms="1705" started-at="2018-06-02T07:35:21Z" finished-at="2018-06-02T07:35:23Z">
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testScript.Test4@5c3bd550]" name="closeBrowser" is-config="true" duration-ms="1283" started-at="2018-06-03T05:00:21Z" finished-at="2018-06-03T05:00:22Z">
           <params>
             <param index="0">
               <value>

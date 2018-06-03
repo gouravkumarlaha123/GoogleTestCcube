@@ -20,7 +20,7 @@ public class Test1 extends BaseTest {
 			googleHomePO.searchTxtBx().sendKeys("facebook"+Keys.ENTER);
 			GoogleSearchResultPO googleSearchResultPO=new GoogleSearchResultPO(driver);
 			googleSearchResultPO.facebookLink().click();
-			String eTitle="Facebook – log in or sign up1";
+			String eTitle="Facebook – log in or sign up";
 			String aTitle = driver.getTitle();
 			Assert.assertEquals(aTitle, eTitle);
 			Reporter.log("Facebook is pass", true);

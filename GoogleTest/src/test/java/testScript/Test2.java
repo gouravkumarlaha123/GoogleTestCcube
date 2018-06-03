@@ -20,7 +20,7 @@ public class Test2 extends BaseTest {
 				googleHomePO.searchTxtBx().sendKeys("instagram"+Keys.ENTER);
 				GoogleSearchResultPO googleSearchResultPO=new GoogleSearchResultPO(driver);
 				googleSearchResultPO.instaLink().click();
-				String eTitle="Instagram1";
+				String eTitle="Instagram";
 				String aTitle = driver.getTitle();
 				Assert.assertEquals(aTitle, eTitle);
 				Reporter.log("Instagram is pass", true);

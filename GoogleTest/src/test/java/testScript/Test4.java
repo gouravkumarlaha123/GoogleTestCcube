@@ -19,7 +19,7 @@ public class Test4 extends BaseTest {
 			googleHomePO.searchTxtBx().sendKeys("Linkedin"+Keys.ENTER);
 			GoogleSearchResultPO googleSearchResultPO=new GoogleSearchResultPO(driver);
 			googleSearchResultPO.linkedInLink().click();
-			String eTitle="Sign Up | LinkedIn1";
+			String eTitle="Sign Up | LinkedIn";
 			String aTitle = driver.getTitle();
 			Assert.assertEquals(aTitle, eTitle);
 			Reporter.log("LinkedIn is pass", true);

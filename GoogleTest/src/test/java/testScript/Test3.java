@@ -19,7 +19,7 @@ public class Test3 extends BaseTest {
 			googleHomePO.searchTxtBx().sendKeys("twitter"+Keys.ENTER);
 			GoogleSearchResultPO googleSearchResultPO=new GoogleSearchResultPO(driver);
 			googleSearchResultPO.twitterLink().click();
-			String eTitle="Login on Twitter1";
+			String eTitle="Login on Twitter";
 			String aTitle = driver.getTitle();
 			Assert.assertEquals(aTitle, eTitle);
 			Reporter.log("Twitter is pass", true);
